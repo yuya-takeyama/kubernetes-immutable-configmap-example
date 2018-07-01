@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: cm-deploy-mutable
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       run: nginx

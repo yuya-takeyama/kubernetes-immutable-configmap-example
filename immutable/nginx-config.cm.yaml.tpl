@@ -1,6 +1,6 @@
 apiVersion: v1
 data:
-  APP_VERSION: "2"
+  APP_VERSION: "1"
 kind: ConfigMap
 metadata:
   name: nginx-config-${config_checksum}
